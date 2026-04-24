@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MOC Tema World App Information - Information for TestFlight testers.">
+    <meta name="robots" content="index, follow">
+    <title>App Information - MOC Tema World</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #f5f0eb 0%, #e8e0d5 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .header {
+            max-width: 800px;
+            margin: 0 auto 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #8B4513;
+        }
+        .lang-switch {
+            background: #8B4513;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+        .lang-switch:hover {
+            background: #6d360f;
+            color: white;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #8B4513;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        h2 {
+            color: #8B4513;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 20px;
+            border-left: 4px solid #8B4513;
+            padding-left: 12px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .intro {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .meta {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 25px;
+        }
+        .info-card {
+            background: linear-gradient(135deg, #f5f0eb 0%, #ebe5dd 100%);
+            padding: 22px;
+            border-radius: 12px;
+            margin: 18px 0;
+            border: 1px solid #ddd5cc;
+        }
+        .info-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .info-row:last-child {
+            margin-bottom: 0;
+        }
+        .label {
+            min-width: 150px;
+            font-weight: 600;
+            color: #8B4513;
+        }
+        a {
+            color: #8B4513;
+        }
+        .footer {
+            max-width: 800px;
+            margin: 20px auto 0;
+            text-align: center;
+            color: #666;
+            font-size: 13px;
+            padding: 20px;
+        }
+        .footer a {
+            color: #8B4513;
+            text-decoration: none;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            .header {
+                flex-direction: column;
+                gap: 15px;
+            }
+            .info-row {
+                flex-direction: column;
+                gap: 2px;
+            }
+            .label {
+                min-width: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">☕ MOC Tema World</div>
+        <a href="app-information.html" class="lang-switch">🌐 Türkçe</a>
+    </div>
+
+    <div class="container">
+        <h1>App Information</h1>
+        <p class="intro">This page provides TestFlight testers with an overview of the MOC Tema World app and its core functionality.</p>
+        <p class="meta">Last updated: April 24, 2026</p>
+
+        <h2>1. App Purpose</h2>
+        <p>MOC Tema World is the official mobile app that allows MOC customers to join and use the loyalty program during coffee purchases. Users can earn stars via QR code, view rewards, and manage their account.</p>
+
+        <h2>2. Core Features</h2>
+        <ul>
+            <li>Earn stars with QR code scanning</li>
+            <li>View total stars and reward status</li>
+            <li>Manage profile and account information</li>
+            <li>Receive campaign and informational notifications</li>
+        </ul>
+
+        <h2>3. Notes For Testers</h2>
+        <ul>
+            <li>The app follows the same core flow in both testing and production environments.</li>
+            <li>QR and reward flows are optimized for in-store usage scenarios.</li>
+            <li>If you encounter any issue, please contact our support team by email.</li>
+        </ul>
+
+        <h2>4. App Details</h2>
+        <div class="info-card">
+            <div class="info-row">
+                <div class="label">App Name</div>
+                <div>MOC Tema World</div>
+            </div>
+            <div class="info-row">
+                <div class="label">Category</div>
+                <div>Food &amp; Drink / Loyalty Program</div>
+            </div>
+            <div class="info-row">
+                <div class="label">Platforms</div>
+                <div>iOS, Android, Web</div>
+            </div>
+            <div class="info-row">
+                <div class="label">Support Email</div>
+                <div><a href="mailto:alikocabalkan@gmail.com">alikocabalkan@gmail.com</a></div>
+            </div>
+        </div>
+
+        <h2>5. Related Links</h2>
+        <p><a href="privacy-policy-en.html">Privacy Policy</a></p>
+        <p><a href="support-en.html">Support Page</a></p>
+    </div>
+
+    <div class="footer">
+        <p>© 2026 MOC Tema World. All rights reserved.</p>
+        <p style="margin-top: 10px;"><a href="app-information.html">Türkçe</a> · <a href="privacy-policy-en.html">Privacy Policy</a> · <a href="support-en.html">Support</a></p>
+    </div>
+</body>
+</html>
